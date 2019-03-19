@@ -1,6 +1,5 @@
 
 # Awesome Colorful Asteroids Clone!
----
 
 A colorful asteroids clone with a twist. Instead of hyperspace, the "lifeline" is an energy pulse which repels all asteroids within range.
 
