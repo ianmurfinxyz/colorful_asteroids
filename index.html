@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body onload="ASTEROIDS.startGame()">
+<body>
+    <!--
+        Must start the game via a user interaction because the browser will 
+        disable the audio context if it is created prior to any user interaction,
+        such as via an onload event handler on the document body. Would have to
+        call resume() on the audio context after the first user interaction to
+        enable audio. For more info see:
+        https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio
+    -->
+    <button onclick="ASTEROIDS.startGame()">Play Asteroids!</button>
     <div id="canvas-div"></div>
     <script src="/mainloop.min.js"></script>
     <script src="/asteroids.js"></script>
