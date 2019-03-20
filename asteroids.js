@@ -1,4 +1,7 @@
-
+//==============================================================================
+// completion-date: 19.03.2019
+// author: Ian Murfin (https://github.com/snail-bait)
+//==============================================================================
 
 (function(){
 
@@ -573,7 +576,7 @@ const config = {
     bulletSpeed: 500, // (unit: meters per second).
     bulletRadius: 2, // drawing only, bullets considered points (unit: pixels)
     bulletAge: 2.0, // time period bullets live (unit: seconds).
-    maxAsteroidSpeed: 300,
+    maxAsteroidSpeed: 400,
     maxAsteroidStartSpeed: 200, // (unit: meters per second)
     minAsteroidStartSpeed: 100,
     asteroidSpawnExlusionRadius: 200, // circle centered at screen center.
@@ -2200,33 +2203,33 @@ let mstGain = undefined; // master gain node.
 
 function initAudio(){
     // setup the sfx audio elements... (loads sounds).
-    sfx.laserShoot.src = "/assets/fire.ogg";
+    sfx.laserShoot.src = "assets/fire.ogg";
     sfx.laserShoot.type = "audio/mp3";
-    sfx.boost.src = "/assets/thrust.ogg";
+    sfx.boost.src = "assets/thrust.ogg";
     sfx.boost.type = "audio/mp3";
     sfx.boost.loop = true;
-    sfx.bangLarge.src = "/assets/bangLarge.ogg";
+    sfx.bangLarge.src = "assets/bangLarge.ogg";
     sfx.bangLarge.type = "audio/mp3";
-    sfx.bangMedium.src = "/assets/bangMedium.ogg";
+    sfx.bangMedium.src = "assets/bangMedium.ogg";
     sfx.bangMedium.type = "audio/mp3";
-    sfx.bangSmall.src = "/assets/bangSmall.ogg";
+    sfx.bangSmall.src = "assets/bangSmall.ogg";
     sfx.bangSmall.type = "audio/mp3";
-    sfx.saucerSmall.src = "/assets/saucerSmall.ogg";
+    sfx.saucerSmall.src = "assets/saucerSmall.ogg";
     sfx.saucerSmall.type = "audio/mp3";
     sfx.saucerSmall.loop = true;
-    sfx.saucerBig.src = "/assets/saucerBig.ogg";
+    sfx.saucerBig.src = "assets/saucerBig.ogg";
     sfx.saucerBig.type = "audio/mp3";
     sfx.saucerBig.loop = true;
-    sfx.extraShip.src = "/assets/extraShip.ogg";
+    sfx.extraShip.src = "assets/extraShip.ogg";
     sfx.saucerBig.type = "audio/mp3";
-    sfx.pulse.src = "/assets/pulse.ogg";
+    sfx.pulse.src = "assets/pulse.ogg";
     sfx.pulse.type = "audio/mp3";
 
     // setup the music audio elements...
-    music.maxPower.src = "/assets/321011__littlerobotsoundfactory__loop-max-power-03.mp3"
+    music.maxPower.src = "assets/321011__littlerobotsoundfactory__loop-max-power-03.mp3"
     music.maxPower.type = "audio/mp3";
     music.maxPower.loop = true;
-    music.elementaryWave.src = "/assets/183881__deleted-user-2731495__elementary-wave-11.mp3"
+    music.elementaryWave.src = "assets/183881__deleted-user-2731495__elementary-wave-11.mp3"
     music.elementaryWave.type = "audio/mp3";
     music.elementaryWave.loop = true;
 
