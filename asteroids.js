@@ -2293,7 +2293,7 @@ function Renderer(containerID, canvasWidth, canvasHeight){
     this.canvas = document.createElement('canvas');
     this.canvas.width = canvasWidth;
     this.canvas.height = canvasHeight;
-    this.canvas.style.background = "#000000"
+    this.canvas.style.background = "#000000";
     this.context = this.canvas.getContext('2d');
     this.context.strokeStyle = "#FFFFFF";
     this.context.fillStyle = "#FFFFFF";
@@ -2633,7 +2633,7 @@ function Game(){
             },
             {
                 name: "PLAYER-COLOR",
-                activeOption: 0,
+                activeOption: 2,
                 options: [
                     {
                         name: "ORANGE",
@@ -2671,7 +2671,7 @@ function Game(){
             },
             {
                 name: "ALIEN-COLOR",
-                activeOption: 3,
+                activeOption: 4,
                 options: [
                     {
                         name: "ORANGE",
@@ -2709,7 +2709,7 @@ function Game(){
             },
             {
                 name: "ASTEROID-COLOR",
-                activeOption: 5,
+                activeOption: 6,
                 options: [
                     {
                         name: "ORANGE",
@@ -2747,7 +2747,7 @@ function Game(){
             },
             {
                 name: "HUD-COLOR",
-                activeOption: 5,
+                activeOption: 7,
                 options: [
                     {
                         name: "ORANGE",
