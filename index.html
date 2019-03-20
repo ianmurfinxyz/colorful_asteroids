@@ -4,6 +4,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-color: black;
+        }
+        #wrapper {
+            text-align: center;
+        }
+        #canvas-div {
+            display: inline-block;
+            margin: auto;
+            border: 1px solid hotpink;
+        }
+        #button-div{
+            margin: 20px;
+            display: block;
+            text-align: center;
+        }
+        #button-div button {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid hotpink;
+            color: hotpink;
+            background: black;
+            font-weight: bold;
+        }
+        #button-div button:hover {
+            background: hotpink;
+            color: black;
+        }
+        #button-div button:active {
+            background: white;
+            color: black;
+        }
+    </style>
     <script src="https://zombie-snail.github.io/colorful-asteroids/mainloop.min.js"></script>
     <script src="https://zombie-snail.github.io/colorful-asteroids/asteroids.js"></script>
 </head>
@@ -16,7 +54,11 @@
         enable audio. For more info see:
         https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio
     -->
-    <button onclick="ASTEROIDS.startGame()">Play Asteroids!</button>
-    <div id="canvas-div"></div>
+    <div id="wrapper">
+        <div id="canvas-div"></div>
+    </div>
+    <div id="button-div">
+        <button onclick="ASTEROIDS.startGame()">Play Asteroids!</button>
+    </div>
 </body>
 </html>
