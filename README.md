@@ -5,7 +5,9 @@ An asteroids clone with lots of color and a simple twist. Instead of hyperspace,
 
 Implemented in pure javascript using the highly useful MainLoop library (https://github.com/IceCreamYou/MainLoop.js) and the web audio API. All rendering is vector based (no sprites, no fonts) and drawn using the HTML-5 canvas API.
 
-Note: the canvas is a fixed size and is quite large at 1400x800px. This creates a more spacious space (pun-intended) to play in. If too large for your screen, just zoom out on the browser.
+note: the canvas is a fixed size and is quite large at 1400x800px. This creates a more spacious space (pun-intended) to play in. If too large for your screen, just zoom out on the browser.
+
+note: tested in google chrome and firefox latest editions. Will probably work in other modern browsers. I highly doubt it will work in internet explorer.
 
 ## Play Here
 
