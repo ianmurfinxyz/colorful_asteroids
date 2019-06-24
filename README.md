@@ -11,7 +11,7 @@ note: tested in google chrome and firefox latest editions. Will probably work in
 
 ## Play Here
 
-https://zombie-snail.github.io/colorful-asteroids/
+https://imurf.github.io/colorful-asteroids/
 
 ## Gameplay Notes
 
