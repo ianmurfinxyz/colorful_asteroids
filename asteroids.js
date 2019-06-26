@@ -1,6 +1,6 @@
 //==============================================================================
 // completion-date: 19.03.2019
-// author: Ian Murfin (https://github.com/zombie-snail)
+// author: Ian Murfin (https://github.com/imurf)
 //==============================================================================
 
 (function(){
