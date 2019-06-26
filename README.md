@@ -70,6 +70,3 @@ For completeness, you can also find the mainloop library here:
 
 https://github.com/IceCreamYou/MainLoop.js
 
-## License
-
-**All code copyright (c) 2019 Ian Murfin.**
