@@ -11,7 +11,7 @@ note: tested in google chrome and firefox latest editions. Will probably work in
 
 ## Play Here
 
-https://imurf.github.io/colorful-asteroids/
+https://ianmurfinxyz.github.io/colorful_asteroids/
 
 ## Gameplay Notes
 
