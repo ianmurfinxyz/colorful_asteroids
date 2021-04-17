@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="/img/asteroids_banner.png" alt="title_banner"/>
+</P>
+
 ## What's This?
 
 An asteroids clone with lots of color and a simple twist. Instead of hyperspace, the "lifeline" is an energy pulse which repels all asteroids within range.
