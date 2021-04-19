@@ -19,7 +19,7 @@ I have tested the game in Google Chrome and Firefox. Will probably work in other
 
 I have hosted the game live on git pages so you can play it! Really?! I hear you ask. Yes Really! I know your excited! :partying_face: Just click the link below :point_down:
 
-https://pixrex.github.io/colorful_asteroids/
+https://ianmurfinxyz.github.io/colorful_asteroids/
 
 ## Gameplay
 
